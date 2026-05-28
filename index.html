@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yogesh Kumar Tiwari — Senior SRE / Cloud Infrastructure Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="brand" href="#home">Yogesh Kumar Tiwari</a>
+          <button id="nav-toggle" class="nav-toggle" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="site-nav" id="site-nav">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="container hero-content">
+            <div>
+              <p class="eyebrow">Senior Infrastructure &amp; SRE Engineer</p>
+              <h1>Multi-cloud infrastructure at scale with AWS &amp; Azure</h1>
+              <p class="hero-copy">
+                I architect, automate, and operate mission-critical infrastructure across AWS and Azure. Expertise in Kubernetes orchestration, networking resilience, observability at scale, and infrastructure-as-code practices that eliminate operational toil while maintaining 99.9%+ uptime SLAs for high-traffic production systems.
+              </p>
+              <div class="hero-actions">
+                <a class="button primary" href="#contact">Get in touch</a>
+                <a class="button secondary" href="#projects">View work</a>
+              </div>
+            </div>
+            <div class="hero-panel">
+              <div class="panel-card">
+                <p class="panel-label">Specialization</p>
+                <h2>AWS &amp; Azure infrastructure, Kubernetes, multi-cloud ops</h2>
+                <p>Architecting enterprise-scale infrastructure with EC2, RDS, ECS/EKS on AWS; VMs, AKS on Azure. Deep expertise in network resilience, disaster recovery, cost optimization, and automated incident response.</p>
+                <div class="panel-stats">
+                  <div>
+                    <strong>6+ Yrs</strong>
+                    <span>Infrastructure &amp; SRE</span>
+                  </div>
+                  <div>
+                    <strong>99.9%+</strong>
+                    <span>Uptime across fleets</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="container section-grid">
+            <div>
+              <p class="section-label">About</p>
+              <h2>Enterprise infrastructure architect &amp; SRE leader</h2>
+              <p>
+                Senior Infrastructure Engineer with 6+ years driving operational excellence across AWS, Azure, and hybrid environments. I architect scalable infrastructure, design resilient systems, and lead teams to ship reliability at scale. Deep expertise in Kubernetes orchestration, multi-cloud networking, high-availability database systems, comprehensive observability platforms, and security-hardened infrastructure aligned with compliance frameworks.
+              </p>
+              <p>
+                I approach every system with a reliability mindset: designing for failure, automating recovery, instrumenting visibility, and defining SLOs that translate business intent into engineering work. Proven track record managing critical production systems for fintech and high-traffic platforms with strict uptime SLAs.
+              </p>
+            </div>
+            <div class="about-stats">
+              <div>
+                <span class="stat-value">AWS Services</span>
+                <span>EC2, RDS, S3, ECS, EKS, Lambda, API Gateway, ALB, CloudFormation, Route53, CloudWatch, X-Ray, IAM, Secrets Manager</span>
+              </div>
+              <div>
+                <span class="stat-value">Azure Services</span>
+                <span>VMs, App Service, AKS, SQL Database, Cosmos DB, Storage, Application Insights, DevOps, Network, Firewall, ExpressRoute</span>
+              </div>
+              <div>
+                <span class="stat-value">Reliability &amp; Ops</span>
+                <span>Kubernetes orchestration, HA database replication, DR/failover automation, incident response, SLO/SLI definition, capacity planning</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="experience">
+          <div class="container">
+            <div class="section-heading">
+              <p class="section-label">Experience</p>
+              <h2>Selected roles and achievements</h2>
+            </div>
+            <div class="timeline">
+              <article class="timeline-item">
+                <span class="timeline-date">2023–Present</span>
+                <h3>Senior Infrastructure &amp; SRE Engineer</h3>
+                <p>Architecting and operating multi-cloud infrastructure (AWS, Azure) for fintech payment systems. Led Kubernetes cluster migration (100+ nodes), implemented GitOps deployment pipelines reducing deployment time by 60%, designed cost optimization framework saving $2M+ annually. Managed on-call rotations for P1 incidents, led RCA/post-mortems, and defined SLOs/SLIs for critical services.</p>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-date">2020–2023</span>
+                <h3>Cloud Infrastructure &amp; DevOps Engineer</h3>
+                <p>Built Terraform/CloudFormation infrastructure for AWS and Azure environments. Implemented Prometheus/Grafana/Loki observability stack reducing MTTR by 45%. Automated database migrations (MySQL, PostgreSQL, RDS) with zero downtime. Established disaster recovery procedures and conducted quarterly DR drills with RPO &lt; 1 hour.</p>
+              </article>
+              <article class="timeline-item">
+                <span class="timeline-date">2018–2020</span>
+                <h3>Systems &amp; Operations Engineer</h3>
+                <p>Managed Linux infrastructure across dev/staging/production. Implemented Ansible-based configuration management for 200+ servers. Supported network architecture, load balancing (HAProxy, Nginx), and incident response for high-availability services.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="container">
+            <div class="section-heading">
+              <p class="section-label">Projects</p>
+              <h2>Featured work</h2>
+            </div>
+            <div class="project-grid">
+              <article class="project-card">
+                <h3>Kubernetes Cluster Migration (AWS EKS)</h3>
+                <p>Led migration of 100+ node Kubernetes cluster to AWS EKS with zero downtime. Implemented GitOps using ArgoCD, automated CI/CD pipelines with GitHub Actions, configured Karpenter for auto-scaling. Reduced infrastructure costs by 35% and deployment time from 45min to 15min.</p>
+              </article>
+              <article class="project-card">
+                <h3>Multi-Cloud Networking &amp; Security</h3>
+                <p>Architected hybrid cloud connectivity across AWS VPCs, Azure VNets, and on-premise data centers. Configured AWS PrivateLink, Azure ExpressRoute, site-to-site VPNs with BGP routing. Implemented AWS Security Groups, WAF policies, and Azure Firewall rules achieving SOC 2 compliance.</p>
+              </article>
+              <article class="project-card">
+                <h3>Production Observability Platform</h3>
+                <p>Built enterprise monitoring stack: Prometheus (metrics), Loki (logs), Jaeger (traces), Grafana dashboards. Created 50+ custom dashboards for infrastructure, application, and business metrics. Implemented alerting rules reducing MTTR from 2hrs to 15min for critical incidents.</p>
+              </article>
+              <article class="project-card">
+                <h3>High-Availability Database Architecture</h3>
+                <p>Designed and implemented MySQL primary-replica replication with cross-region failover on AWS RDS. Automated backup/restore pipelines with RPO &lt; 1hr, RPO &lt; 5min. Managed zero-downtime migrations for 10+ production databases using read-replica promotion.</p>
+              </article>
+              <article class="project-card">
+                <h3>Infrastructure-as-Code Standardization</h3>
+                <p>Authored 40+ Terraform modules for EC2, RDS, ECS, S3, networking. Implemented Terraform state locking, cost estimation with Infracost, automated testing with Terratest. Reduced infrastructure provisioning time from 3 days to 2 hours.</p>
+              </article>
+              <article class="project-card">
+                <h3>Disaster Recovery &amp; Business Continuity</h3>
+                <p>Designed and tested multi-region DR strategy for critical services. Automated failover orchestration using AWS Lambda and CloudFormation. Conducted quarterly DR drills with RTO &lt; 30min, RPO &lt; 15min. Documented runbooks and playbooks for all critical failure scenarios.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="skills">
+          <div class="container">
+            <div class="section-heading">
+              <p class="section-label">Technical Skills</p>
+              <h2>Deep expertise across cloud platforms and infrastructure</h2>
+            </div>
+            <div class="skill-grid">
+              <div class="skill-item">
+                <h4>AWS Core Services</h4>
+                <p>EC2, RDS, S3, ECS, EKS, Lambda, API Gateway, ALB/NLB, VPC, Route53, CloudFront, CloudFormation, CDK, CloudWatch, X-Ray, IAM, Secrets Manager, SNS/SQS</p>
+              </div>
+              <div class="skill-item">
+                <h4>Azure Core Services</h4>
+                <p>VMs, App Service, AKS, SQL Database, Cosmos DB, Storage, Application Insights, DevOps, Virtual Networks, Application Gateway, Azure Firewall, ExpressRoute, Key Vault</p>
+              </div>
+              <div class="skill-item">
+                <h4>Container &amp; Orchestration</h4>
+                <p>Kubernetes (EKS, AKS), Docker, Helm, ArgoCD, Karpenter, Docker Compose, container security and networking</p>
+              </div>
+              <div class="skill-item">
+                <h4>Infrastructure-as-Code</h4>
+                <p>Terraform (40+ modules), CloudFormation, Ansible, Saltstack, GitOps workflows, policy-as-code with Sentinel/OPA</p>
+              </div>
+              <div class="skill-item">
+                <h4>Observability &amp; Monitoring</h4>
+                <p>Prometheus, Grafana, Loki, Jaeger, Victoria Metrics, ELK Stack, CloudWatch, Application Insights, custom alerting and dashboards</p>
+              </div>
+              <div class="skill-item">
+                <h4>Networking &amp; Security</h4>
+                <p>BGP routing, VPN/ExpressRoute, VPC/VNet design, AWS Security Groups/NACLs, Azure NSGs, firewalls, WAF, SSL/TLS, PKI, secrets management</p>
+              </div>
+              <div class="skill-item">
+                <h4>CI/CD &amp; Automation</h4>
+                <p>GitHub Actions, GitLab CI/CD, Jenkins, ArgoCD, Terraform automation, infrastructure validation, Infracost, Terratest</p>
+              </div>
+              <div class="skill-item">
+                <h4>Databases &amp; HA</h4>
+                <p>MySQL (primary-replica replication), PostgreSQL, RDS, DynamoDB, MongoDB, high-availability architecture, backup/restore automation, zero-downtime migrations</p>
+              </div>
+              <div class="skill-item">
+                <h4>Linux &amp; Scripting</h4>
+                <p>Ubuntu/CentOS administration, Bash scripting, Python automation, systems troubleshooting, performance tuning, package management</p>
+              </div>
+              <div class="skill-item">
+                <h4>Reliability &amp; Operations</h4>
+                <p>SLO/SLI definition, incident response and RCA, disaster recovery planning, capacity planning, cost optimization, chaos engineering principles</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-alt" id="certifications">
+          <div class="container">
+            <div class="section-heading">
+              <p class="section-label">Certifications &amp; Credentials</p>
+              <h2>Cloud &amp; infrastructure certifications</h2>
+            </div>
+            <div class="certification-list">
+              <div class="cert-item">
+                <span class="cert-badge">MS-900</span>
+                <p><strong>Microsoft 365 Fundamentals</strong> — Validated foundational knowledge of Microsoft cloud services and productivity tools.</p>
+              </div>
+              <div class="cert-item">
+                <span class="cert-badge">AZ-305</span>
+                <p><strong>Designing Microsoft Azure Infrastructure Solutions</strong> — Designing scalable and reliable infrastructure on Azure.</p>
+              </div>
+              <div class="cert-item">
+                <span class="cert-badge">AZ-500</span>
+                <p><strong>Microsoft Azure Security Technologies</strong> — In Progress. Implementing security controls and compliance frameworks on Azure.</p>
+              </div>
+              <div class="cert-item">
+                <span class="cert-badge">CKA</span>
+                <p><strong>Certified Kubernetes Administrator</strong> — In Progress. Kubernetes cluster administration and management.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="container contact-grid">
+            <div>
+              <p class="section-label">Contact</p>
+              <h2>Infrastructure leadership &amp; technical expertise</h2>
+              <p>I'm actively engaging with infrastructure engineering opportunities, SRE leadership roles, and technical architecture advisory. Let's discuss scaling cloud systems, building reliable infrastructure, mentoring engineering teams, or strengthening your organization's infrastructure and SRE culture.</p>
+              <div class="contact-panel">
+                <div>
+                  <strong>Email</strong>
+                  <span>Bharatvasioncloud@gmail.com</span>
+                </div>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <span>linkedin.com/in/yourprofile</span>
+                </div>
+              </div>
+            </div>
+            <form class="contact-form">
+              <label>
+                Name
+                <input type="text" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="Your email" />
+              </label>
+              <label>
+                Message
+                <textarea rows="5" placeholder="Tell me about your opportunity or project..."></textarea>
+              </label>
+              <button type="submit" class="button primary">Send message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© <span id="year"></span> Yogesh Kumar Tiwari. Senior Infrastructure Engineer.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
